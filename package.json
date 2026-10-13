@@ -1,0 +1,29 @@
+{
+  "name": "careerai-pro",
+  "version": "1.0.0",
+  "description": "CareerAI Pro - Autonomous AI Career Intelligence & Placement Acceleration Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "client": "npm --prefix client run dev",
+    "server": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "career-guidance",
+    "ai-matching",
+    "machine-learning",
+    "placement-acceleration",
+    "saas"
+  ],
+  "author": "CareerAI Technologies",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "sql.js": "^1.14.2",
+    "uuid": "^14.0.3"
+  }
+}
